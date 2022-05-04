@@ -27,11 +27,11 @@
   </head>
   <body>
     <!-- Navbar -->
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark py-3 fixed-top">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark py-1 fixed-top">
       <div class="container">
         <a class="navbar-brand" href="#"
           ><img src="./img/logo.jpg" alt="logo" />
-          <span class="text-warning fw-bold">Ahmed R.</span></a
+          <span class="text-warning fw-bold ms-3">Ahmed R.</span></a
         >
         <button
           class="navbar-toggler"
@@ -47,7 +47,9 @@
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav me-auto mb-2 mb-lg-0">
             <li class="nav-item">
-              <a class="nav-link" aria-current="page" href="#learn">About me</a>
+              <a class="nav-link" aria-current="page" href="#about-me"
+                >About me</a
+              >
             </li>
             <li class="nav-item">
               <a class="nav-link" href="#projects">Projects</a>
@@ -61,44 +63,47 @@
     </nav>
 
     <!-- Showcase -->
-    <section id="showcase"
+    <section
+      id="showcase"
       class="bg-light text-light p-5 pt-lg-5 pb-lg-0 text-center text-sm-start"
     >
       <div class="container">
         <div class="d-sm-flex align-items-center justify-content-between">
           <div>
-            <h1 class="text-dark fw-bolder">My Portfolio</span></h1>
+            <h1 class="text-dark fw-bolder mb-5">
+              Welcome to my <span class="text-warning fs-1"> Portfolio</span>
+            </h1>
           </div>
           <img
             src="./img/programmer.svg"
             alt="showcase"
-            class="img-fluid w-25 d-none d-sm-block"
+            class="img-fluid w-25"
           />
         </div>
       </div>
     </section>
 
-    <div
-      class="bg-dark text-light p-5 pt-lg-5 pb-lg-0 text-center text-sm-start"
+    <section
+      id="about-me"
+      class="bg-dark text-light p-3 pt-lg-5 text-center text-sm-start"
     >
       <div class="container">
         <h2>About Me</h2>
         <p class="lead">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam saepe
-          ea quo neque quaerat sequi minus sed explicabo dolores earum aliquam
-          porro, fuga, mollitia animi nobis. Blanditiis a optio facilis?
+          Engineer turned programmer (still turning). My main interest is
+          front-end technology.
         </p>
       </div>
-    </div>
+    </section>
 
     <!-- Projects -->
 
-    <section id="projects" class="p-5 bg-primary">
+    <section id="projects" class="p-3 bg-primary">
       <div class="container">
-        <h2 class="text-center text-white">My Projects</h2>
-        <p class="lead text-center text-white mb-5">
-          Below you can find list of some of my projects, with links to deployed
-          sites and github repos.
+        <h2 class="text-center text-sm-start text-white">My Projects</h2>
+        <p class="lead text-center text-sm-start text-white mb-5">
+          Below you can find some of my projects, with links to deployed sites
+          and github repos.
         </p>
         <div class="row g-4">
           <div class="col-md-6 col-lg-3">
@@ -196,22 +201,32 @@
                 <span class="fw-bold">Location:</span> Sarajevo, BiH
               </li>
               <li class="list-group-item">
-                <span class="fw-bold">Phone:</span> +387 61 709 098
+                <span class="fw-bold">Ways To Contact Me:</span>
               </li>
-              <li class="list-group-item">
-                <span class="fw-bold">Email:</span>
-                ahmed.razic@gmail.com
-              </li>
-              <li class="list-group-item d-flex justify-content-around">
+              <li class="list-group-item d-flex justify-content-around mt-3">
                 <span class="fw-bold"
-                  ><a href="https://github.com/ahmed-razic"><i class="bi bi-github text-dark mx-1"></i></a></span>
+                  ><a href="mailto:ahmed.razic@gmail.com"
+                    ><i class="bi bi-envelope text-dark mx-1 fs-1"></i></a
+                ></span>
+                <span class="fw-bold"
+                  ><a href="tel:+38761709098"
+                    ><i
+                      class="bi bi-telephone-outbound text-dark mx-1 fs-1"
+                    ></i></a
+                ></span>
+                <span class="fw-bold"
+                  ><a href="https://github.com/ahmed-razic"
+                    ><i class="bi bi-github text-dark mx-1 fs-1"></i></a
+                ></span>
                 <span class="fw-bold"
                   ><a href="https://www.linkedin.com/in/ahmedrazic/"
-                    ><i class="bi bi-linkedin text-dark mx-1"></i></a
-                  ></span>
+                    ><i class="bi bi-linkedin text-dark mx-1 fs-1"></i></a
+                ></span>
                 <span class="fw-bold"
-                  ><a href="https://twitter.com/ahmed_razic"><i class="bi bi-twitter text-dark mx-1"></i></a></span>
-              </li>              
+                  ><a href="https://twitter.com/ahmed_razic"
+                    ><i class="bi bi-twitter text-dark mx-1 fs-1"></i></a
+                ></span>
+              </li>
             </ul>
           </div>
           <div class="col-md">
@@ -224,7 +239,7 @@
     <!-- Footer -->
     <footer class="p-3 bg-dark text-white text-center position-relative">
       <div class="container">
-        <p class="lead">Copyright &copy; 2022 Ahmed R. Portfolio</p>
+        <p class="lead">Copyright &copy; 2022 Ahmed R.</p>
         <a href="#" class="position-absolute bottom-0 end-0 p-3">
           <i class="bi bi-arrow-up-circle h1"></i>
         </a>
@@ -237,8 +252,8 @@
       const map = new mapboxgl.Map({
         container: 'map', // container ID
         style: 'mapbox://styles/mapbox/streets-v11', // style URL
-        center: [18.30233, 43.8265], // starting position [lng, lat]
-        zoom: 12, // starting zoom
+        center: [18.31, 43.831], // starting position [lng, lat]
+        zoom: 14, // starting zoom
       });
     </script>
 
