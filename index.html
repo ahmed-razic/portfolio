@@ -85,104 +85,405 @@
 
     <section
       id="about-me"
-      class="bg-dark text-light p-3 pt-lg-5 text-center text-sm-start"
+      class="bg-dark text-light p-3 pt-5 text-center pb-5"
     >
       <div class="container">
-        <h2>About Me</h2>
-        <p class="lead">
-          Engineer turned programmer (still turning). My main interest is
-          front-end technology.
+        <h2 class="mb-3">About Me</h2>
+        <div>
+          <p class="mb-0"><span class="text-warning">Name: </span>Ahmed (1976.)</p>
+          <p class="mb-0"><span class="text-warning">Occupation: </span>Engineer turned programmer (still turning). </p>
+          <p class="mb-0"><span class="text-warning">Main interest: </span>Front-end technology, JavaScript and React.</p>
+          <p class="mb-0"><span class="text-warning">Level: </span>Still beginner, but hopefully I am getting there...</p>
+          <p class="mb-0"><span class="text-warning">Learning from: </span>Courses, documentation, stackoverflow,...</p>
+        </div>
         </p>
       </div>
     </section>
 
     <!-- Projects -->
 
-    <section id="projects" class="p-3 bg-primary">
+    <section id="projects" class="p-3 pt-5 bg-primary">
       <div class="container">
-        <h2 class="text-center text-sm-start text-white">My Projects</h2>
-        <p class="lead text-center text-sm-start text-white mb-5">
+        <h2 class="text-center text-white mb-3">My Projects</h2>
+        <p class="lead text-center text-white mb-5">
           Below you can find some of my projects, with links to deployed sites
           and github repos.
         </p>
         <div class="row g-4">
-          <div class="col-md-6 col-lg-3">
+          <div class="col-md-6 col-lg-4">
             <div class="card bg-light">
               <div class="card-body text-center">
-                <img
-                  src="https://randomuser.me/api/portraits/men/33.jpg"
-                  alt="image-person"
-                  class="mb-3"
-                />
-                <h3 class="card-title mb-3">Ahmed Razic</h3>
-                <p class="card-text">
-                  Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-                  Asperiores odit sapiente voluptates illum perspiciatis? Autem?
+                <div>
+                  <h5 class="card-title mb-0">Quadratic Equation Roots</h5>
+                  <small>(Materialize, DOM manipulation)</small>
+                </div>
+                <a
+                  href="./img/quadr-equation-roots.jpg"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <img
+                    src="./img/quadr-equation-roots.jpg"
+                    alt="quadr-equation-roots"
+                    class="app-image mb-3 img-fluid"
+                /></a>
+
+                <p class="card-text text-center px-4">
+                  App for finding roots of quadratic equation.
                 </p>
-                <a href="#"><i class="bi bi-twitter text-dark mx-1"></i></a>
-                <a href="#"><i class="bi bi-facebook text-dark mx-1"></i></a>
-                <a href="#"><i class="bi bi-linkedin text-dark mx-1"></i></a>
-                <a href="#"><i class="bi bi-instagram text-dark mx-1"></i></a>
+
+                <div class="d-flex justify-content-evenly">
+                  <a
+                    href="https://github.com/ahmed-razic/quadratic-equation-roots"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    ><i class="bi bi-github text-dark mx-1 fs-3"></i
+                  ></a>
+                  <a
+                    href="https://subtle-kulfi-5159a1.netlify.app/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    ><i class="bi bi-globe text-dark mx-1 fs-3"></i
+                  ></a>
+                </div>
               </div>
             </div>
           </div>
-          <div class="col-md-6 col-lg-3">
+          <div class="col-md-6 col-lg-4">
             <div class="card bg-light">
               <div class="card-body text-center">
-                <img
-                  src="https://randomuser.me/api/portraits/men/33.jpg"
-                  alt="image-person"
-                  class="mb-3"
-                />
-                <h3 class="card-title mb-3">Ahmed Razic</h3>
-                <p class="card-text">
-                  Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-                  Asperiores odit sapiente voluptates illum perspiciatis? Autem?
+                <div>
+                   <h5 class="card-title mb-0">Quote of the Day</h5>
+                <small>(REST API, XMLHttpRequest)</small>
+                </div>
+               
+                <a
+                  href="./img/quote-of-the-day.jpg"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <img
+                    src="./img/quote-of-the-day.jpg"
+                    alt="quote-of-the-day"
+                    class="app-image mb-3 img-fluid"
+                /></a>
+
+                <p class="card-text text-center px-4">
+                  App for displaying daily quote using
+                  <a href="https://theysaidso.com/api/">theysaidso</a>.
                 </p>
-                <a href="#"><i class="bi bi-twitter text-dark mx-1"></i></a>
-                <a href="#"><i class="bi bi-facebook text-dark mx-1"></i></a>
-                <a href="#"><i class="bi bi-linkedin text-dark mx-1"></i></a>
-                <a href="#"><i class="bi bi-instagram text-dark mx-1"></i></a>
+
+                <div class="d-flex justify-content-evenly">
+                  <a
+                    href="https://github.com/ahmed-razic/quote-of-the-day"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    ><i class="bi bi-github text-dark mx-1 fs-3"></i
+                  ></a>
+                  <a
+                    href="https://quote-of-the-day-flax.vercel.app/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    ><i class="bi bi-globe text-dark mx-1 fs-3"></i
+                  ></a>
+                </div>
               </div>
             </div>
           </div>
-          <div class="col-md-6 col-lg-3">
+          <div class="col-md-6 col-lg-4">
             <div class="card bg-light">
               <div class="card-body text-center">
-                <img
-                  src="https://randomuser.me/api/portraits/men/33.jpg"
-                  alt="image-person"
-                  class="mb-3"
-                />
-                <h3 class="card-title mb-3">Ahmed Razic</h3>
-                <p class="card-text">
-                  Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-                  Asperiores odit sapiente voluptates illum perspiciatis? Autem?
+                <div>
+                  <h5 class="card-title mb-0">Contacts Book</h5>
+                  <small>(VanilaJS, Materialize, LocaleStorage)</small>
+                </div>
+                <a
+                  href="./img/contacts-book.jpg"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <img
+                    src="./img/contacts-book.jpg"
+                    alt="contacts-book"
+                    class="app-image mb-3 img-fluid"
+                /></a>
+
+                <p class="card-text text-center px-4">
+                  Managing contacts data using browser's local storage.
                 </p>
-                <a href="#"><i class="bi bi-twitter text-dark mx-1"></i></a>
-                <a href="#"><i class="bi bi-facebook text-dark mx-1"></i></a>
-                <a href="#"><i class="bi bi-linkedin text-dark mx-1"></i></a>
-                <a href="#"><i class="bi bi-instagram text-dark mx-1"></i></a>
+
+                <div class="d-flex justify-content-evenly">
+                  <a
+                    href="https://github.com/ahmed-razic/contacts-book"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    ><i class="bi bi-github text-dark mx-1 fs-3"></i
+                  ></a>
+                  <a
+                    href="https://stupendous-zuccutto-accbf2.netlify.app/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    ><i class="bi bi-globe text-dark mx-1 fs-3"></i
+                  ></a>
+                </div>
               </div>
             </div>
           </div>
-          <div class="col-md-6 col-lg-3">
+          <div class="col-md-6 col-lg-4">
             <div class="card bg-light">
               <div class="card-body text-center">
-                <img
-                  src="https://randomuser.me/api/portraits/men/33.jpg"
-                  alt="image-person"
-                  class="mb-3"
-                />
-                <h3 class="card-title mb-3">Ahmed Razic</h3>
-                <p class="card-text">
-                  Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-                  Asperiores odit sapiente voluptates illum perspiciatis? Autem?
+                <div>
+                  <h5 class="card-title mb-0">Matrix Movies Ratings</h5>
+                  <small>(React, Context, JS Classes)</small>
+                </div>
+
+                <a
+                  href="./img/matrix-rating.jpg"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <img
+                    src="./img/matrix-rating.jpg"
+                    alt="matrix-rating"
+                    class="app-image mb-3 img-fluid"
+                /></a>
+
+                <p class="card-text text-center px-4">
+                  App for rating all matrix movies. But we know which one is the
+                  best.
                 </p>
-                <a href="#"><i class="bi bi-twitter text-dark mx-1"></i></a>
-                <a href="#"><i class="bi bi-facebook text-dark mx-1"></i></a>
-                <a href="#"><i class="bi bi-linkedin text-dark mx-1"></i></a>
-                <a href="#"><i class="bi bi-instagram text-dark mx-1"></i></a>
+
+                <div class="d-flex justify-content-evenly">
+                  <a
+                    href="https://github.com/ahmed-razic/matrix-rating"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    ><i class="bi bi-github text-dark mx-1 fs-3"></i
+                  ></a>
+                  <a
+                    href="https://zealous-lewin-51f681.netlify.app/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    ><i class="bi bi-globe text-dark mx-1 fs-3"></i
+                  ></a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-4">
+            <div class="card bg-light">
+              <div class="card-body text-center">
+                <div>
+                  <h5 class="card-title mb-0">Our Solar System</h5>
+                  <small>(React, Context, Reducers, Axios)</small>
+                </div>
+                <a
+                  href="./img/solar-system.jpg"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <img
+                    src="./img/solar-system.jpg"
+                    alt="solar-system"
+                    class="app-image mb-3 img-fluid"
+                /></a>
+
+                <p class="card-text text-center px-4">
+                  App which provides info about different bodies in our Solar
+                  system.
+                </p>
+
+                <div class="d-flex justify-content-evenly">
+                  <a
+                    href="https://github.com/ahmed-razic/solar-system"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    ><i class="bi bi-github text-dark mx-1 fs-3"></i
+                  ></a>
+                  <a
+                    href="https://determined-panini-866c92.netlify.app/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    ><i class="bi bi-globe text-dark mx-1 fs-3"></i
+                  ></a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-4">
+            <div class="card bg-light">
+              <div class="card-body text-center">
+                <div>
+                  <h5 class="card-title mb-0">City Air Quality</h5>
+                  <small>(JQuery, Days.js, Bootstrap, Leaflet)</small>
+                </div>
+                <a
+                  href="./img/air-quality.jpg"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <img
+                    src="./img/air-quality.jpg"
+                    alt="air-quality"
+                    class="app-image mb-3 img-fluid"
+                /></a>
+
+                <p class="card-text text-center px-4">
+                  App which provides info about air quality in different cities.
+                </p>
+
+                <div class="d-flex justify-content-evenly">
+                  <a
+                    href="https://github.com/ahmed-razic/air-quality"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    ><i class="bi bi-github text-dark mx-1 fs-3"></i
+                  ></a>
+                  <a
+                    href="https://silly-davinci-83f995.netlify.app/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    ><i class="bi bi-globe text-dark mx-1 fs-3"></i
+                  ></a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-4">
+            <div class="card bg-light">
+              <div class="card-body text-center">
+                <div>
+                  <h5 class="card-title mb-0">Cars Commerce</h5>
+                  <small>(React, Firebase, Firestore, Leaflet, OAUTH)</small>
+                </div>
+
+                <div class="div-image">
+                  <a
+                    href="./img/cars-commerce.jpg"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    ><img
+                      src="./img/cars-commerce.jpg"
+                      alt="cars-commerce"
+                      class="app-image mb-3 img-fluid"
+                  /></a>
+                </div>
+
+                <p class="card-text text-center px-4">
+                  App for renting/selling cars with login authorization and
+                  cloud storage.
+                </p>
+
+                <div class="d-flex justify-content-evenly">
+                  <a
+                    href="https://github.com/ahmed-razic/cars-commerce"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    ><i class="bi bi-github text-dark mx-1 fs-3"></i
+                  ></a>
+                  <a
+                    href="https://cars-commerce.vercel.app/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    ><i class="bi bi-globe text-dark mx-1 fs-3"></i
+                  ></a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-4">
+            <div class="card bg-light">
+              <div class="card-body text-center">
+                <div>
+                  <h5 class="card-title mb-0">e-Herbarium</h5>
+                  <small>(React, Firebase, Firestore, Leaflet, OAUTH)</small>
+                </div>
+
+                <div class="div-image">
+                  <a
+                    href="./img/e-herbarium.jpg"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    ><img
+                      src="./img/e-herbarium.jpg"
+                      alt="e-Herbarium"
+                      class="app-image mb-3 img-fluid"
+                  /></a>
+                </div>
+
+                <p class="card-text text-center px-4">
+                  Plants collection for students and botanists. API:
+                  <a
+                    href="https://explorer.natureserve.org/api-docs/"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    NatureServe Explorer.
+                  </a>
+                </p>
+
+                <div class="d-flex justify-content-evenly">
+                  <a
+                    href="https://github.com/ahmed-razic/cars-commerce"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    ><i class="bi bi-github text-dark mx-1 fs-3"></i
+                  ></a>
+                  <a
+                    href="https://cars-commerce.vercel.app/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    ><i class="bi bi-globe text-dark mx-1 fs-3"></i
+                  ></a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-4">
+            <div class="card bg-light">
+              <div class="card-body text-center">
+                <div>
+                  <h5 class="card-title mb-0">SpaceX Company</h5>
+                  <small>(React, GraphQL, Hooks)</small>
+                </div>
+
+                <div class="div-image">
+                  <a
+                    href="./img/spacex-company.jpg"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    ><img
+                      src="./img/spacex-company.jpg"
+                      alt="spacex-company"
+                      class="app-image mb-3 img-fluid"
+                  /></a>
+                </div>
+
+                <p class="card-text text-center px-4">
+                  Presentation of SpaceX company and main rockets. API:
+                  <a
+                    href="https://api.spacex.land/graphql/"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    SpaceX GraphQL.
+                  </a>
+                </p>
+
+                <div class="d-flex justify-content-evenly">
+                  <a
+                    href="https://github.com/ahmed-razic/spacex-company"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    ><i class="bi bi-github text-dark mx-1 fs-3"></i
+                  ></a>
+                  <a
+                    href="https://objective-johnson-4cd99c.netlify.app/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    ><i class="bi bi-globe text-dark mx-1 fs-3"></i
+                  ></a>
+                </div>
               </div>
             </div>
           </div>

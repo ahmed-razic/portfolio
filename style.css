@@ -9,6 +9,12 @@ a {
   text-decoration: none;
 }
 
+.app-image {
+  height: 250px;
+  width: 250px;
+  margin-top: 1rem;
+}
+
 #map {
   width: 500px;
   height: 300px;
