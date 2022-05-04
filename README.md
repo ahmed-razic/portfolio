@@ -9,7 +9,7 @@
     background: #F1DEDE;
     border-radius:10px;
     font-size:0.85rem;
-    font-weight:600;">Deployed on Netlify</a>
+    font-weight:600;">Deployed on Vercel</a>
 </div>
 
 ---
