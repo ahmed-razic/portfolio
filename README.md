@@ -3,7 +3,7 @@
 ---
 
 <div>
-<a href="https://animated-kitten-bf5924.netlify.app/" target="_blank" rel="noopener noreferrer"
+<a href="https://portfolio-one-sand-58.vercel.app/" target="_blank" rel="noopener noreferrer"
     style="padding:0.5rem 0.7rem;
     color: black;
     background: #F1DEDE;
