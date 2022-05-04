@@ -1,0 +1,21 @@
+/* because of the fixed navbar 'ghost' element was inserted  */
+body::before {
+  display: block;
+  content: '';
+  height: 60px;
+}
+
+a {
+  text-decoration: none;
+}
+
+#map {
+  width: 500px;
+  height: 300px;
+  border-radius: 10px;
+}
+@media (min-width: 768px) {
+  .news-input {
+    width: 50%;
+  }
+}
