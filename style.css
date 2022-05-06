@@ -9,6 +9,10 @@ a {
   text-decoration: none;
 }
 
+.a-link {
+  color: black !important;
+}
+
 .app-image {
   height: 250px;
   width: 250px;
